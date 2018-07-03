@@ -1,0 +1,59 @@
+.category_filter{border-right:1px #ddd solid;border-bottom:1px #ddd solid;padding:10px 0}
+.category_filter h3{font-size:14px;color:#333;padding-top:10px}
+.category_filter ul{margin:10px 10px 5px 0;overflow:hidden;position:relative}
+.category_filter li{display:block;line-height:1.2;padding:5px 0;position:relative;min-width:94px;float:left;margin-right:5px}
+.category_filter li b{font-weight:normal;color:#999;padding-left:2px}
+.category_filter li a{text-decoration:none}
+.category_filter li span.num{color:#999}
+.category_filter ul.color{}
+.category_filter ul.color li{height:22px;line-height:22px;padding:2px;float:left;border:1px #eee solid;margin:0 5px 5px 0;min-width:22px}
+.category_filter ul.color li:hover{border-color:#333}
+.category_filter ul.color li a{display:block;padding:0 5px;min-width:12px;height:22px;text-align:center}
+.category_filter ul.color.chooseitem li{border:none}
+.category_filter ul.color.chooseitem li a{display:block !important;margin-left:20px;border:solid 1px #ddd;float:left}
+.category_filter ul.color.chooseitem li label a{border:none;float:none;display:none !important}
+.category_filter ul.color.chooseitem li .num{display:none}
+.category_filter .more{position:relative;padding-right:15px;display:inline-block;margin:5px 0 10px 0}
+.category_filter .more span{position:absolute;right:0;top:5px}
+.category_filter h3{position:relative}
+.category_filter_item h3{padding-right:30px}
+.category_filter li .num{color:#bbb;font-weight:100}
+.category_filter li a.gray{color:#bbb}
+.category_filter .fullwidth li{width:100%}
+.category_filter_active{border-bottom:1px #ddd solid;padding-bottom:10px}
+.category_filter_active h3{font-size:14px;position:relative;padding-bottom:10px}
+.category_filter_active .activefilters h3{font-size:12px;padding:5px 0 0}
+.category_filter_active ul{border:none;padding:0 0 10px}
+.category_filter ul.chooseitem{overflow:auto;box-shadow:0 0px 5px #ddd;padding:10px 15px;border:solid 1px #ddd;margin-bottom:0}
+.category_filter .choosebtn{padding:0;box-shadow:0px 0 5px #ddd;border:solid 1px #ddd;border-top:none;margin-right:10px;padding:10px 15px;overflow:hidden}
+.category_filter .choosebtn .yes{background:#f60;padding:7px 15px;border-radius:3px;color:#fff;cursor:pointer;float:left}
+.category_filter .choosebtn .no{color:#0066cb;cursor:pointer;margin-left:20px;float:left;padding:7px 0}
+.category_filter_active li{padding-top:10px;float:none;margin:0;border:none}
+.category_filter_active li a{position:relative;padding:5px;border:solid 1px #ddd;display:block;overflow:hidden;width:auto}
+.category_filter_active .shape_ul li a span.athletic{float:left}
+.category_filter_active .shape_ul li a{line-height:50px;padding:0 5px}
+.category_filter_active .shape_ul li:hover{border:none}
+.category_filter_active li a .num{position:absolute;top:0;bottom:0;margin:auto;right:5px;font-size:16px;font-weight:100;line-height:1;height:16px}
+.category_filter_active li a:hover{border-color:#f90;text-decoration:none}
+.category_filter .choosemore{position:absolute;top:10px;right:15px;background:url(/images/common_1.png) no-repeat -64px -383px;width:16px;height:14px;cursor:pointer}
+.category_filter_active .clear{position:absolute;top:0;right:15px;background:url(/images/common_1.png) no-repeat -64px -359px;width:16px;height:16px;cursor:pointer}
+.category_filter li label{float:left}
+.category_filter_active .color_item a{overflow:hidden;line-height:25px}
+.category_filter_active .color_item .color{float:left;width:25px;height:25px;margin-right:10px}
+.category_filter_active{border-right:1px #ddd solid;padding-top:10px}
+.category_filter_active h3{color:#000;position:relative;display:block}
+.category_filter_active h3 i{font-style:normal;color:#09F;position:absolute;right:15px;top:0;cursor:pointer;font-weight:normal}
+.category_filter_active h3 i:hover{color:#f60;text-decoration:underline}
+.category_filter_active ul{margin:0 15px 0 0;border-bottom:1px #ddd dotted;padding:10px 0}
+.category_filter_active li.title{font-size:14px;font-weight:600;color:#000;line-height:1.8}
+.category_filter_active li.active{position:relative;cursor:pointer;margin:5px 0}
+.category_filter_active li.active a{border:1px #ddd solid;display:block;padding:5px}
+.category_filter_active li.active a.shape_a{line-height:40px;padding-right:20px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.category_filter_active li.active a.shape_a:after{content:'';clear:both;display:block}
+.category_filter_active li.active i{position:absolute;right:10px;top:50%;font-size:16px;line-height:20px;margin-top:-10px}
+.category_filter_active li.active a:hover{color:#f60}
+.category_filter_active ul{overflow:hidden}
+.category_filter_active li.color{height:24px;width:96%;line-height:24px;padding:3px;border:solid 1px #ddd;float:left;margin-right:10px;display:block;position:relative;margin-top:5px}
+.category_filter_active li.color a{height:22px;width:22px;display:block;padding:0;overflow:visible}
+.category_filter_active li.color i{position:absolute;right:-160px;top:0;font-size:16px}
+.category_filter_active li.color a:hover{color:#f60}
