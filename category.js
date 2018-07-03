@@ -10,6 +10,11 @@ $(".category_filter ul.color").each(function(){
 			$(this).css({"height":$(this).children().eq(0).outerHeight(true)*3}).after("<a href='javascript:void(0)' class='more'><span class='arrow_a'><i></i></span>View more</a>")
 		}
 });
+/*
+* Testing the stuff
+* New comment added
+* */
+
 $(document).on("click",".category_filter a.more",function(){
 		if($(this).children('.arrow_a').length>0)
 		{
